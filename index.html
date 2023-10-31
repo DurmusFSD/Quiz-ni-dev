@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://kit.fontawesome.com/657de39a82.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="start_btn">
+      <button>Start Quiz</button>
+    </div>
+
+    <div class="rules">
+      <div class="rules-title"><span>Some Rules Of This Quiz</span></div>
+      <div class="rules-list">
+        <div class="rule">
+          * You will have only <span>15 seconds</span> per each question.
+        </div>
+        <div class="rule">* You can't change your answer.</div>
+        <div class="rule">* You can't select any option when time is up.</div>
+        <div class="rule">* You can't exit until the end of the game.</div>
+        <div class="rule">
+          * You'll get points on th basis of your correct answers.
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="restart">Continue</button>
+        <button class="quit">Exit</button>
+      </div>
+    </div>
+
+    <div class="quiz_box">
+      <header>
+        <div class="title">Answer the Questions</div>
+        <div class="timer">
+          <div class="time_left_txt">Time Left</div>
+          <div class="timer_sec">15</div>
+        </div>
+
+        <div class="time_line"></div>
+      </header>
+      <section>
+        <div class="que_text"></div>
+        <div class="option_list"></div>
+      </section>
+
+      <footer>
+        <div class="total_que"></div>
+        <button class="next_btn">Next</button>
+      </footer>
+    </div>
+
+    <div class="result_box">
+      <div class="icon">
+        <i class="fa-solid fa-trophy"></i>
+      </div>
+
+      <div class="complete_text">You've completed the quiz</div>
+      <div class="score_text"></div>
+      <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="quiz.js"></script>
+  </body>
+</html>

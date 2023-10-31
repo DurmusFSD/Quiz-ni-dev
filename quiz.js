@@ -1,0 +1,138 @@
+let questions = [
+  {
+    numb: 1,
+    question: "İslam'ın kutsal kitabı nedir?",
+    answer: "Kur'an-ı Kerim",
+    options: ["Kur'an-ı Kerim", "İncil", "Tevrat", "Zebur"],
+  },
+  {
+    numb: 2,
+    question: "Peygamber Muhammed'in doğduğu şehir neresidir?",
+    answer: "Mekke",
+    options: ["Mekke", "Kahire", "İstanbul ", "Bağdat"],
+  },
+  {
+    numb: 3,
+    question: "İslam'ın beş şartından biri olan oruç ne zaman tutulur?",
+    answer: " Ramazan ayında",
+    options: [
+      "Ramazan ayında",
+      "Şaban ayında",
+      " Zilhicce ayında ",
+      "Recep ayında",
+    ],
+  },
+  {
+    numb: 4,
+    question: "Kabe nerede bulunur?",
+    answer: "Mekke'de",
+    options: ["Mekke'de", "Medine'de", "Kahire'de ", "Bağdat'ta"],
+  },
+  {
+    numb: 5,
+    question: "İslam'da kaç temel ibadet vardır?",
+    answer: "2",
+    options: ["2", "4", "5 ", "6"],
+  },
+  {
+    numb: 6,
+    question: "İslam'da Allah'a inanmayı ifade eden kelime nedir?",
+    answer: "Kelime-i Şehadet",
+    options: [
+      "Kelime-i Şehadet",
+      "Kelime-i Tövbe",
+      "Kelime-i Tevhid",
+      "Kelime-i Sevap",
+    ],
+  },
+  {
+    numb: 7,
+    question: "Hz. Muhammed'in ilk eşi kimdir?",
+    answer: "Hatice",
+    options: ["Hatice", "Aisha", "Zeynep", "Hafsa"],
+  },
+  {
+    numb: 8,
+    question: "Kurban Bayramı kaç gün sürer?",
+    answer: "4 gün",
+    options: ["4 gün", "3 gün", "5 gün", "6 gün"],
+  },
+  {
+    numb: 9,
+    question: "İslam'ın kutsal ayı hangisidir?",
+    answer: "Ramazan",
+    options: ["Ramazan", "Şaban", "Recep", "Zilhicce"],
+  },
+  {
+    numb: 10,
+    question: "İslam'da inanç esaslarına ne denir?",
+    answer: "İman",
+    options: ["İman", "İslam", "İhsan", "İstihsan"],
+  },
+  {
+    numb: 11,
+    question: "Hangi şehir, Hz. Muhammed'in hicret ettiği yerdir?",
+    answer: "Medine",
+    options: ["Medine", "Mekke", "Kahire", "Bağdat"],
+  },
+  {
+    numb: 12,
+    question:
+      "İslam'ın beş şartından biri olan zekât neyin verilmesini gerektirir?",
+    answer: "Malın bir kısmı",
+    options: ["Malın bir kısmı", "Ormanın ağaçları", "Hayvanlar", "Eşyalar"],
+  },
+  {
+    numb: 13,
+    question: "İslam'ın kutsal bayramı hangisidir?",
+    answer: "Kurban Bayramı",
+    options: [
+      "Kurban Bayramı",
+      "Ramazan Bayramı",
+      "Hıdrellez Bayramı",
+      "Nevruz Bayramı",
+    ],
+  },
+  {
+    numb: 14,
+    question: "Kaç adet farz namaz vardır?",
+    answer: "5",
+    options: ["5", "8", "7", "11"],
+  },
+  {
+    numb: 15,
+    question: "İslam'ın ilk inanlarına ne ad verilir?",
+    answer: "Sahabe",
+    options: ["Sahabe", "Münafık", "Peygamber", "Evliya"],
+  },
+  {
+    numb: 16,
+    question: "İslam'da yasaklanmış olan içkiye ne ad verilir?",
+    answer: "Haram",
+    options: ["Haram", "Helal", "Tayyib", "Zekât"],
+  },
+  {
+    numb: 17,
+    question: "Kabe'nin etrafında kaç tur atmak gerekir?",
+    answer: "7",
+    options: ["7", "5", "3", "9"],
+  },
+  {
+    numb: 18,
+    question: "Hangi gün, Cuma günü İslam'da özel bir ibadetle anılır?",
+    answer: "Cuma Namazı",
+    options: ["Cuma Namazı", "Bayram Günü", "Salı Günü", "Perşembe Günü"],
+  },
+  {
+    numb: 19,
+    question: "İslam'ın temel ibadet mekanlarına ne ad verilir?",
+    answer: "Mescit",
+    options: ["Mescit", "Kilise", "Sinagog", "Tapınak"],
+  },
+  {
+    numb: 20,
+    question: "Hz. Muhammed'in soyundan gelen liderlere ne ad verilir?",
+    answer: "Halife",
+    options: ["Halife", "Sultan", "Emir", "Prens"],
+  },
+];
